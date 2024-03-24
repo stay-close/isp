@@ -4,9 +4,9 @@
 :root {
   --heading_text_clr: #111;
   --para_text_color: #666;
-  --theme_clr: #00b894;
+  --theme_clr: #00a786;
   --border: 2px solid #00b894;
-  --border_bottom: 1px solid #2d2e2f;
+  --border_bottom: 1px solid #00a786;
 
   --h1_font_size: 48px;
   --h2_font_size: 32px;
@@ -93,6 +93,30 @@ span.company_name {
 .header_top {
   border-bottom: var(--border_bottom);
 }
+.header_top ul.social_nav li a {
+  color: #999;
+}
+.header_top ul li a:hover {
+  color: var(--theme_clr);
+}
+ul.contact_nav li a {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+ul.contact_nav li a {
+  font-size: 14px;
+  color: #999;
+}
+
+.navbar.navbar-expand-lg.fixed-top {
+  background: var(--theme_clr);
+  color: #fff;
+}
+.navbar.navbar-expand-lg.fixed-top .nav-link {
+  color: #fff;
+}
+
 /* =====Header area CSS ====== */
 
 /* =====Home Area CSS ===== */

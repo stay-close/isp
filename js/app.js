@@ -114,3 +114,19 @@ particlesJS('particles-js',
   }
 
 );
+
+
+// Navbar Fixed on top when scroll
+const scrollNavbar=document.querySelector('.navbar');
+document.addEventListener('scroll', function(e) {
+  const scrollTop = window.scrollY || document.documentElement.scrollTop;
+  
+  if (scrollTop > 0) {
+   
+    scrollNavbar.classList.remove('static-top');
+    scrollNavbar.classList.add('fixed-top');
+  } else {
+    scrollNavbar.classList.remove('fixed-top');
+    scrollNavbar.classList.add('static-top');
+  }
+});
