@@ -40,7 +40,7 @@ html {
 
 h1 {
   font-size: var(--h1_font_size);
-  color: var(--heading_text_clr);
+  color: var(--theme_clr);
   line-height: var(--h1_line_h);
   font-weight: var(--font_bold);
 }
@@ -75,11 +75,17 @@ h4 {
   font-weight: var(--font_sbold);
 }
 a.btn {
-  padding: 20px 30px;
+  padding: 10px 20px;
   text-transform: uppercase;
   border: var(--border);
   background: var(--theme_clr);
-  color: var(--heading_text_clr);
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+a.btn:hover {
+  background: transparent;
+  border: var(--border);
+  color: var(--theme_clr);
 }
 span.company_name {
   color: var(--theme_clr);
