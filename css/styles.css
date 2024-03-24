@@ -87,6 +87,7 @@ h4 {
   text-transform: uppercase;
   font-weight: var(--font_sbold);
 }
+button.btn,
 a.btn {
   padding: 10px 20px;
   text-transform: uppercase;
@@ -95,6 +96,7 @@ a.btn {
   color: #fff;
   transition: all 0.3s ease-in-out;
 }
+button.btn:hover,
 a.btn:hover {
   background: transparent;
   border: var(--border);
@@ -212,3 +214,58 @@ ul.contact_nav li a {
 }
 
 /* ===== Packages area css ==== */
+
+/* ===== contact us area ===== */
+
+.contact_form {
+  box-shadow: 4px 4px 6px -1px rgba(0, 0, 0, 0.3),
+    -2px -2px 4px -1px rgba(0, 0, 0, 0.3);
+  padding: 20px 15px;
+  border-radius: 10px;
+}
+.input_group {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  margin-bottom: 15px;
+}
+.input_group label {
+  font-weight: var(--font_med);
+}
+select,
+textarea,
+.input_group input {
+  padding: 10px 15px;
+  border: 2px solid #ddd;
+  color: var(--theme_clr);
+  border-radius: 5px;
+  outline: none;
+}
+textarea:focus,
+.input_group input:focus {
+  border: 2px solid var(--theme_clr);
+}
+
+select option {
+  color: var(--theme_clr);
+}
+textarea {
+  width: 100%;
+}
+
+/* ===== contact us area ===== */
+
+/* ====== Footer area css ====== */
+.footer_area {
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+.footer_area p {
+  margin-bottom: 0;
+}
+.footer_area a {
+  color: var(--theme_clr);
+}
+
+/* ====== Footer area css ====== */
