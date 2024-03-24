@@ -112,7 +112,8 @@ span.company_name {
 /* header top */
 
 .header_top {
-  border-bottom: var(--border_bottom);
+  border-bottom: 0.5px solid #ddd;
+  
 }
 .header_top ul.social_nav li a {
   color: #999;
