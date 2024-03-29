@@ -108,6 +108,9 @@ span.company_name {
   color: var(--theme_clr);
   font-weight: var(--font_bold);
 }
+.container {
+  max-width: 90%;
+}
 
 /* =====Header area CSS ====== */
 
